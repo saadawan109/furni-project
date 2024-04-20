@@ -122,6 +122,33 @@
 .choose-img{
     width: 100%;
     border-radius: 20px;
-    height: auto;
     
+    
+}
+
+/* Interior Design */
+
+.interior_design{
+    margin-top: 150px;
+}
+.img-interior_design{
+    width: 80%;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.interior-heading{
+    font-weight: 600;
+}
+.interior-para{
+    padding-top: 10px;
+    color: rgb(154, 153, 153);
+    line-height: 29px;
+}
+.interior-txt{
+    display: flex;
+    padding-top: 25px;
+}
+.interior-txt_para{
+    color: rgb(154, 153, 153);
+    padding-left: 5px;
 }
