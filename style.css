@@ -64,3 +64,35 @@
 .img-couch{
     width: 100%;
 }
+
+/* Section About Chairs */
+
+.section_chairs{
+    margin-top: 90px;
+}
+.txt-chairs{
+    padding-top: 20px;
+    color: rgb(154, 153, 153);
+}
+.btn-chairs_explore{
+    color: white;
+    font-weight: 700 !important;
+    margin-top: 10px;
+    padding: 10px 25px !important;
+}
+.img-chair{
+    width: 100%;
+}
+.chair_description{
+    text-align: center;
+    margin-top: 20px;
+}
+.chair-name{
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.chair_price{
+    font-size: large;
+    font-weight: 800;
+}
