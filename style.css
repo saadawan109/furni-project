@@ -96,3 +96,32 @@
     font-size: large;
     font-weight: 800;
 }
+
+/* Why Choose US */
+
+.choose-us{
+    margin-top: 120px;
+}
+.section-head{
+    font-weight: 600;
+}
+.text-choose_us{
+    padding-top: 10px;
+    color: rgb(154, 153, 153);
+}
+.second_section{
+    padding-top: 50px;
+}
+.choose-heading{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.choose-para{
+    color: rgb(154, 153, 153);
+}
+.choose-img{
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    
+}
