@@ -1,0 +1,66 @@
+.bg-color{
+    background: #3b5d50 !important;
+}
+
+/* Navbar Section */
+
+.nav_bar{
+    color: white !important;
+    font-size:30px !important;
+    font-weight: bold;
+}
+.in_nav{
+    color: rgb(182, 181, 181) !important;
+    font-size: xx-large !important;
+}
+.nav-links{
+    justify-content: end;
+}
+.icons{
+    display: flex;
+    padding-left: 45px;
+}
+.icon-cart{
+    padding-left: 35px;
+}
+
+/* Main Section */
+
+.main-section{
+    display: flex;
+    padding-top: 90px;
+}
+.heading-div{
+    padding-top: 20px;
+}
+.main-heading{
+    font-size:4cap ;
+    font-weight: 700;
+    color: white;
+    line-height: initial;
+    padding-bottom: 18px;
+}
+.sub-heading{
+    font-size:1.8ch;
+    font-weight: 400;
+    color: rgb(182, 181, 181);
+}
+.btns-heading{
+    display: flex;
+    padding-top: 10px;
+}
+.btn-shop_now{
+    color: black;
+    background: #f9bf29;
+    font-weight: 700 !important;
+    margin-right: 10px;
+    padding: 10px 25px !important; 
+}
+.btn-explore{
+    color: white !important;
+    font-weight:700 !important;
+    padding: 10px 29px !important;
+}
+.img-couch{
+    width: 100%;
+}
