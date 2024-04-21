@@ -176,3 +176,36 @@
     text-decoration: none;
     
 }
+
+
+/* testimonials */
+
+.testimonials{
+    margin-top: 100px;
+}
+
+.testimonial .carousel-caption {
+    position: static !important;
+}
+.para{
+    line-height: 32px;
+    font-size: 18px;
+    color: rgb(154, 153, 153);
+    width: 55% !important;
+}
+.testimonial-pic{
+    padding-top: 25px;
+    width: 7%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.testimonial-name{
+    font-weight: bold;
+    font-size: 15px;
+}
+.testimonial-designation{
+    color: rgb(154, 153, 153);
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
