@@ -67,7 +67,7 @@
 
 
 .second_section{
-    color: rgb(243, 240, 240);
+    background-color: rgb(234, 234, 234);
 }
 
 
@@ -247,4 +247,88 @@
     color: black;
     text-decoration: none;
     font-weight: 500;
+}
+
+/* Third Section Footer */
+
+
+.footer_last_section{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.footer_img{
+    width: 90%;
+    margin-left: 57px;
+    margin-top: -120px;
+}
+.footer-mail_heading{
+    display: flex;
+    padding-top: 80px;
+}
+.ri-mail-line{
+    color: rgb(154, 153, 153);
+    font-size:x-large ;
+}
+.footer-mail_heading_text{
+    color: #3b5d50;
+    font-size: x-large;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.footer-mail{
+    display: flex;
+}
+.footer_btn{
+    background-color: #3b5d50;
+    border: 0;
+    border-radius: 7px;
+    margin-left: 22px;
+    width: 70px;
+}
+.footer_second_heading{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #3b5d50;
+}
+.footer_para{
+    color: rgb(154, 153, 153);
+}
+.p{
+    font-size: 14px;
+}
+.footer_icons{
+    display: flex;
+    margin-bottom: 50px;
+}
+.footer_icons_btn{
+    border: 0;
+    color: #3b5d50;
+    background-color: #d6e2de;
+    border-radius: 50%;
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.last_section_txt{
+    
+    color: rgb(154, 153, 153);
+    
+}
+.last_section_link{
+    text-decoration: none;
+    color: black;
+}
+.last_txt{
+    display: flex;
+    justify-content: end;
+}
+.last_txt_1{
+    text-decoration: none;
+    color: black;
+}
+.last_txt_2{
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
 }
