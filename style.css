@@ -16,12 +16,28 @@
 .nav-links{
     justify-content: end;
 }
+ 
 .icons{
     display: flex;
     padding-left: 45px;
 }
 .icon-cart{
     padding-left: 35px;
+}
+.nav_link_1{
+    border-bottom: #f9bf29 5px solid !important;
+    color: rgb(182, 181, 181) !important;
+}
+.nav_link{
+    border-bottom:#3b5d50 5px solid  !important;
+    color: rgb(182, 181, 181) !important;
+}
+.nav_link_1:hover{
+    color: white !important;
+}
+.nav_link:hover{
+    border-bottom: #f9bf29 5px solid !important;
+    color: white !important;
 }
 
 /* Main Section */
@@ -104,11 +120,14 @@
     font-size: large;
     font-weight: 800;
 }
+.chair-hover:hover{
+    background-color: rgb(218, 218, 218);
+}
 
 /* Why Choose US */
 
 .choose-us{
-    margin-top: 120px;
+    padding-top: 120px;
 }
 .section-head{
     font-weight: 600;
@@ -140,10 +159,16 @@
 .interior_design{
     margin-top: 150px;
 }
-.img-interior_design{
-    width: 80%;
+.img-interior_design-1{
+    width: 40%;
     margin-left: 30px;
     border-radius: 20px;
+}
+.img-interior_design-2{
+    width: 40%;
+}
+.img-interior_design-3{
+    width: 30%;
 }
 .interior-heading{
     font-weight: 600;
@@ -165,7 +190,7 @@
 /* Chairs Coloum */
 
 .chairs_coloum{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .txt_withchair{
     padding-top: 8px;
@@ -175,6 +200,8 @@
 }
 .coloum_chair{
     width: 34%;
+    background-color:rgb(216, 221, 223) ;
+
 }
 .text-coloum_chair{
     color: rgb(154, 153, 153);
@@ -222,7 +249,7 @@
 /* Recent Blog */
 
 .recent-blog{
-    margin-top: 100px;
+    padding-top: 100px;
     padding-bottom: 190px;
 }
 .blog_link{
@@ -257,9 +284,13 @@
     margin-bottom: 50px;
 }
 .footer_img{
-    width: 90%;
+    width: 380px;
+    height: auto;
     margin-left: 57px;
-    margin-top: -120px;
+    position: absolute;
+    right: 0;
+    top: -110px;
+
 }
 .footer-mail_heading{
     display: flex;
@@ -289,6 +320,7 @@
     font-size: xx-large;
     font-weight: 600;
     color: #3b5d50;
+    padding-top: 70px;
 }
 .footer_para{
     color: rgb(154, 153, 153);
@@ -331,4 +363,156 @@
     text-decoration: none;
     color: black;
     padding-left: 25px;
+}
+
+/* Position Relative */
+
+.collage {
+    position: relative;
+}
+.collage > img {
+    width: 200px;
+}
+
+.collage > img:nth-child(1) {
+    height: 550px;
+    width: 400px;
+}
+
+.collage > img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 190px;
+}
+.collage > img:nth-child(3) {
+    position: absolute;
+    width: 331px;
+    right: 24px;
+    bottom: -93px;
+    height: 441px;
+}
+
+
+.footer{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+/* _______________________________________________________ */
+
+/* Shop Page */
+
+.body{
+    background-color: rgb(249, 246, 246);
+}
+
+.bg-color{
+    background-color: #3b5d50;
+}
+.shop{
+   
+    margin-bottom: 0px !important;
+    padding-bottom: 155px;
+    padding-top: 115px;
+
+}
+
+
+
+/* Second Section */
+
+
+.chairs-row{
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+.second_section_shop{
+    background-color: rgb(234, 234, 234);
+}
+.card_cahir:hover{
+    background-color: rgb(218, 218, 218) !important;
+}
+
+
+/* Our Team */
+
+.text-team{
+    padding-top: 200px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.team_card_name:hover{
+    text-decoration: none;
+}
+.team_card_desig{
+    color: rgb(154, 153, 153);
+}
+
+
+/* Testonominal */
+
+.test{
+    padding-bottom: 200px;
+}
+
+.second_part{
+    background-color: rgb(234, 234, 234);
+}
+
+
+/* Services */
+
+.second_section_services{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+
+/* Contact Us */
+
+.contact_form{
+    padding-top: 100px;
+}
+.contact_btn{
+    background-color: #3b5d50;
+    border: 0;
+    border-radius: 8px;
+    width: 80px;
+    height: 47px;
+}
+.mail_btn{
+    background-color: #3b5d50;
+    border: 0;
+    border-radius: 8px;
+    width: 55px;
+    height: 47px;
+}
+.call_btn{
+    background-color: #3b5d50;
+    border: 0;
+    border-radius: 8px;
+    width: 55px;
+    height: 47px;
+}
+.p_contact_form{
+    padding-left: 8px;
+    color: rgb(154, 153, 153);
+}
+.form_input{
+    height: 45px;
+}
+.form_message{
+    height: 130px;
+}
+.second_part_contact{
+    background-color: rgb(234, 234, 234);
+    padding-bottom: 150px;
 }
