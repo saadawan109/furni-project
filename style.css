@@ -149,9 +149,23 @@
 }
 .choose-img{
     width: 100%;
-    border-radius: 20px;
-    
-    
+    border-radius: 20px;   
+}
+.outer_shade{
+    position: relative;
+}
+.img_choose_us{
+    position: relative;
+    /* box-shadow: 12px 8px 0px 0px #bbb2b2; */
+}
+.shade{
+    position: absolute;
+    background: rgba(59, 93, 80, 0.2);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    top: 13px;
+    left: 20px;
 }
 
 /* Interior Design */
@@ -516,3 +530,7 @@
     background-color: rgb(234, 234, 234);
     padding-bottom: 150px;
 }
+
+
+
+
